@@ -5,7 +5,7 @@ const {
   User,
   Comment,
   Vote
-} = require('../../models/Index');
+} = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.get('/', (req, res) => {

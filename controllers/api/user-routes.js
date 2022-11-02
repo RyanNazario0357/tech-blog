@@ -4,7 +4,7 @@ const {
   Post,
   Comment,
   Vote
-} = require('../../models');
+} = require('../../models/Index');
 
 // returns all users
 router.get('/', (req, res) => {

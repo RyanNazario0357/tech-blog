@@ -5,7 +5,7 @@ const {
   User,
   Comment,
   Vote
-} = require('../models');
+} = require('../models/Index');
 
 // return all posts for homepage from db
 router.get('/', (req, res) => {

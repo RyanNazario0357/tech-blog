@@ -5,7 +5,7 @@ const {
   User,
   Comment,
   Vote
-} = require('../models');
+} = require('../models/Index');
 const withAuth = require('../utils/auth');
 
 // return all posts for dashboard from db
